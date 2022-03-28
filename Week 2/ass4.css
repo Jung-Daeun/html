@@ -1,0 +1,195 @@
+
+.container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 100px;
+  margin-bottom:10px;
+}
+
+.text4{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-weight: bold;
+}
+.text-title4{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom:40px;
+}
+.text-detail4{
+  margin-bottom:40px;
+}
+.btn4{
+  border:none;
+  border-radius: 10px;
+  padding:13px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color:#BFBFC3;
+  cursor: pointer;
+}
+.btn4:hover{
+  background-color: grey;
+}
+.mockupimg{
+  width: 400px;
+  margin:100px;
+}
+.time{
+  background-color:black;
+  width:100%;
+  height:170px;
+  margin-top:30px;
+  color:white;
+  text-align: center;
+  padding-top:50px;
+}
+.time-title{
+  color:white;
+  font-size: 20px;
+}
+.time-detail{
+  color:white;
+}
+.text-button4{
+  margin-top:5px;
+}
+.btn5{
+  border:none;
+  border-radius: 10px;
+  padding:13px;
+  font-size: 13px;
+  font-weight: bold;
+  background-color:#BFBFC3;
+  cursor: pointer;
+}
+.btn5:hover{background-color: grey;}
+
+.offer-title{
+  text-align: center;
+  margin:50px;
+  font-weight: bold;
+  font-size: 25px;
+  color:#265438;
+}
+.nav-container{
+  display: flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  height: auto;
+  margin-bottom:100px;
+}
+.navi{
+  background: black;
+  text-align: center;
+  width:110px;
+  height: 110px;
+  border-radius: 100px;
+  margin:30px;
+  cursor: grab;
+}
+
+.navi:hover{
+  background: grey;
+}
+.resposive{
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+i{
+  font-size: 60px;
+  font-weight: lighter;
+  color:white;
+  text-align: center;
+  padding:20px;
+}
+.time2{
+  background-color:black;
+  width:100%;
+  height:110px;
+  color:white;
+  text-align: center;
+  padding-top:5px;
+  margin-bottom:50px;
+}
+.stationary{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: right;
+}
+.cando{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-left:50px;
+  margin-right: 50px;
+  overflow: hidden;
+}
+.alpa{
+  left:0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cando-detail{
+  width:600px;
+  height: 300px;
+  font-size:15px;
+  font-weight: normal;
+  position:relative;
+}
+
+.writings{
+  position:absolute;
+  bottom:50px;
+  right:50px;
+  color:white;
+}
+.vacant{
+  margin-bottom:200px;
+}
+.alpa{
+  transition: all 0.2s linear;
+}
+.alpa:hover{
+  transform: scale(0.8);
+  cursor:grab;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+abc
