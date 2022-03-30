@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background-color: #f8f8f8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.semester {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.course-item {
+  float: left;
+  background-color: white;
+  width: 347px;
+  height: 260px;
+  margin: 5px 20px 15px;
+}
+
+.bottom {
+  padding-left: 10px;
+}
+
+.number {
+  color: gray;
+  font-weight: bold;
+}
+
+.course-name {
+  margin-top: 10px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+}
+
+.footer {
+  line-height: 24px;
+}
+.name {
+  font-size: 13px;
+  color: gray;
+  float: left;
+}
+i {
+  margin-left: 10px;
+  margin-right: 8px;
+  float: right;
+}
+.margin {
+  clear: both;
+}

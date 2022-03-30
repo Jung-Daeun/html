@@ -1,0 +1,85 @@
+.container{
+  width:1000px;
+}
+.header{
+  width:100%;
+  height: 30px;
+}
+
+.logo{
+  margin-top:5px;
+  width:50px;
+  height:50px;
+  position:relative;
+  margin-left:50px;
+  border-radius:50%;
+  overflow:hidden;
+  background:green;
+  float:left;
+}
+.img{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  object-fit:cover;
+}
+
+.name{
+  width:48%;
+  height: 50px;
+  padding-left:10px;
+  padding-bottom:15px;
+  float:left;
+  line-height: 5px;
+}
+.main{
+  width:300px;
+  height:400px;
+  position:absolute;
+  left:600px;
+  overflow:hidden;
+}
+.this{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  object-fit:cover;
+}
+
+
+
+.title{
+  width:55%;
+  font-family:'Dovemayo';
+  margin-left:50px;
+  float:left;
+}
+
+.button{
+  width:700px;
+  height:50px;
+  padding-left:500px;
+  padding-top:30px;
+  float:left;
+}
+
+.second{
+  width:20px;
+  height:20px;
+}
+
+.plus{
+  width:20px;
+  height:20px;
+  position:absolute;
+  left:870px;
+  top:390px;
+}
+.third{
+  width:20px;
+  height:20px;
+}

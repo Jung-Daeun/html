@@ -1,0 +1,16 @@
+.tablet{
+  width:786px;
+  height: 10px;
+  background: cadetblue;
+}
+.mobile{
+  width:576px;
+  height: 10px;
+  background:grey;
+}
+
+.img-thumbnail{
+  width:150px;
+  height: auto;
+  border-radius: 100%;
+}

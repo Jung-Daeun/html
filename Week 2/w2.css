@@ -1,0 +1,191 @@
+.navbar li{
+  display: inline-block;
+  font-size: 16px;
+  width: 70px;
+  text-align: center;
+  padding:10px;
+  border-radius: 5px;
+  background: #eee;
+
+}
+a:link{color: cadetblue;}
+a:visited{color:cadetblue;}
+
+body{
+  font-family:'dotum' 'arial'
+}
+.navbar a{
+  text-decoration: none;
+}
+
+/**레이아웃 세션**/
+
+.main-background{
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position:relative;
+  background-position:center;
+  position:relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img.jpg);
+  padding:1px;
+}
+.main-title{
+  font-size: 50px;
+  color: white;
+  margin-top:100px;
+  margin-left: 10px;
+  text-align: center;
+}
+.explain{
+  font size: 10px;
+  color: white;
+  text-align: center;
+  padding-bottom:40px;
+}
+
+.button{
+  position:absolute;
+  padding:5px;
+  border-radius:5px;
+  left:0;
+  right:0;
+  margin:auto;
+  width:75px;
+  font-weight:bold;
+}
+.box{
+  background:#eee;
+  font-size:10px;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+  max-width:600px;
+  position:relative;
+  top:-40px;
+  padding:10px;
+  margin:auto;
+  border-radius:5px;
+  box-sizing:border-box;
+}
+
+.btn{
+  padding:20px;
+  background:cadetblue;
+  border-radius: 10px;
+  cursor:pointer;
+  border:none;
+}
+
+.btn:hover{
+  background-color:chocolate;
+}
+.btn:focus{
+  background-color: grey;
+}
+.btn:active{
+  background-color:brown;
+  border: 2px solid black;
+}
+
+/** 뭐라도 써야지 수업이 될 것 같으니**/
+@font-face {
+  src : url(gabia_solmee.ttf);
+  font-family:'폰트';
+}
+
+@font-face {
+  src: url(ttf/bingure.ttf);
+  font-family:'폰트2'
+}
+body{
+  position: relative;
+}
+.text-box{
+  text-align: center;
+  background: ivory;
+  width:400px;
+  position: absolute;
+  left:0;
+  right:0;
+  margin:auto;
+  font-family:'폰트';
+}
+
+p,h4,h3,h2{
+  transform: rotate(0.02deg);
+}
+.flex-container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-item{
+  width:200px;
+  height:200px;
+  background:cadetblue;
+  margin:5px;
+}
+
+.vacant{
+  width:100%;
+  height: 200px;
+}
+
+/**heyheyhey**/
+
+.nav-container{
+  display:flex;
+  padding:50px;
+}
+.nav-logo{
+  background: chocolate;
+  width:400px;
+  padding:10px;
+  text-align: center;
+}
+
+.navi-logo{
+  width:50px;
+}
+
+.logo{
+  justify-content: flex-start;
+}
+
+
+.flex-navbar{
+  display:flex;
+  background:black;
+}
+.items-flex{
+  margin:10px;
+  font-size: 10px;
+  color:white;
+}
+/****/
+
+
+
+@media screen and (max-width:1200px){
+.main-title{
+  font-size: 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>

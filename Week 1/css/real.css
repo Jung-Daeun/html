@@ -1,0 +1,30 @@
+.container{
+  width:1000px;
+  padding-left:30px;
+}
+
+.header{
+  width:1000px;
+  height: 50px;
+}
+
+.semester{
+  width:100%;
+
+}
+.c1{
+  width:200px;
+  height:100px;
+  float:left;
+}
+
+.c11{
+  width:200px;
+  height:100px;
+  float:left;
+}
+
+.c1detail{
+  width:200px;
+  height:150px;
+}
